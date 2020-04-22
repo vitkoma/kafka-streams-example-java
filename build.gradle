@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'koma'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.apache.kafka:kafka-streams:2.1.0"
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.6'
+    testImplementation 'org.apache.kafka:kafka-streams-test-utils:2.1.0'
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+}
