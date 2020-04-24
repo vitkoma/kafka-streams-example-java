@@ -9,6 +9,10 @@ import org.apache.kafka.streams.kstream.Printed;
 
 import java.util.concurrent.CountDownLatch;
 
+/**
+ * The application entry point.
+ * Based on the original skeleton.
+ */
 public class App {
 
     public static void main(String[] args) {

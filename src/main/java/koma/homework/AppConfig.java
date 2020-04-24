@@ -7,6 +7,9 @@ import org.apache.kafka.streams.StreamsConfig;
 import java.util.Map;
 import java.util.Properties;
 
+/**
+ * Application properties.
+ */
 public class AppConfig {
 
     public Properties getProps() {

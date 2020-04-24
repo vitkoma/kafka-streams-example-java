@@ -10,6 +10,9 @@ import org.apache.kafka.streams.kstream.KStream;
 
 import java.io.IOException;
 
+/**
+ * Defines the topology of data transformation from a source stream to a result stream.
+ */
 public class TopologyBuilder {
 
     private ObjectMapper jsonMapper = new ObjectMapper();
